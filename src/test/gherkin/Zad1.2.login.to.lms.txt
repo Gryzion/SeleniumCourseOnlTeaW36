@@ -1,0 +1,7 @@
+Feature: Log in to LMS
+Scenario: Successful log in
+Given: Page https://lms.coderslab.pl/login opened in browser
+When complete the field with the email address
+And complete the password field
+And login button clicked
+Then Page with purchased courses

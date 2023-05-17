@@ -1,0 +1,8 @@
+Feature: running first presentation from java prework
+Scenario: successfully launched first presentation
+Given: Page https://lms.coderslab.pl/courses opened in browser
+When automation tester button clicked
+and show chapters button clicked in prework section
+And introduction to the course button clicked
+And
+Then Page with purchased courses
